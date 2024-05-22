@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-comfyworkflows"
+description = "The best way to run, share, & discover thousands of ComfyUI workflows."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["tqdm", "aiohttp-retry"]
+
+[project.urls]
+Repository = "https://github.com/thecooltechguy/ComfyUI-ComfyWorkflows"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-ComfyWorkflows"
+Icon = ""
